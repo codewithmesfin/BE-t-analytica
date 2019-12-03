@@ -1,5 +1,5 @@
 {
-  "name": "zomashopping-api",
+  "name": "et-analytica-api",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -37,6 +37,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
-  "description": "zomashopping-api"
+  "license": "MIT",
+  "description": "et-analytica-api"
 }
