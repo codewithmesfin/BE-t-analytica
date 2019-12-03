@@ -1,0 +1,61 @@
+{
+  "name": "zomashop-api",
+  "version": "1.0.0-beta",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint --fix .",
+    "dev": "NODE_ENV=development node .",
+    "start": "NODE_ENV=production node .",
+    "watch": "nodemon .",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "compression": "1.7.3",
+    "cors": "2.8.5",
+    "csvtojson": "2.0.8",
+    "dotenv": "6.1.0",
+    "global": "^4.3.2",
+    "helmet": "3.15.0",
+    "loopback": "3.24.0",
+    "loopback-boot": "3.2.0",
+    "loopback-cli": "^5.0.0",
+    "loopback-component-explorer": "6.3.1",
+    "loopback-component-storage": "3.5.0",
+    "loopback-connector-mongodb": "3.8.0",
+    "loopback-disable-method-mixin": "0.0.1",
+    "loopback-ds-timestamp-mixin": "3.4.1",
+    "loopback-row-count-mixin": "0.1.8",
+    "loopback-softdelete-2-mixin": "0.0.4",
+    "nanoid": "2.0.0",
+    "serve-favicon": "2.5.0",
+    "strong-error-handler": "3.2.0",
+    "strongloop": "^6.0.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "^4.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-loopback": "^8.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "husky": "^1.1.2",
+    "nodemon": "^1.18.7",
+    "prettier": "^1.14.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "ISC",
+  "description": "zoma-shop-api",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

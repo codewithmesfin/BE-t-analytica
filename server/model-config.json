@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../node_modules/loopback-ds-timestamp-mixin",
+      "../node_modules/loopback-softdelete-2-mixin",
+      "../node_modules/loopback-row-count-mixin",
+      "../node_modules/loopback-disable-method-mixin",
+      "../node_modules/loopback-custom-counts-mixin",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "ACL": {
+    "dataSource": "mongo_db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongo_db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "UserAccount": {
+    "dataSource": "mongo_db",
+    "public": true
+  },
+  "CustomAccessToken": {
+    "dataSource": "mongo_db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mongo_db",
+    "public": false
+  },
+  "UserRole": {
+    "dataSource": "mongo_db",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "Report": {
+    "dataSource": "mongo_db",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "mongo_db",
+    "public": true
+  }
+}

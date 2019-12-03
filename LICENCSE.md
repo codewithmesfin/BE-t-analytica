@@ -1,0 +1,1 @@
+Copyright (c) 2018, Ahadootech ICT Solution PLC

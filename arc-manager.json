@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 5,
+    "LoadBalancer": 3
+  },
+  "models": {
+    "ManagerHost": {
+      "14131dc8-5128-4303-a830-baaf62d2458f": "{\"id\":\"14131dc8-5128-4303-a830-baaf62d2458f\",\"host\":\"zomashop-api.nhvalley.net\",\"port\":80,\"actions\":[\"delete\",\"edit\"],\"protocol\":\"http\",\"created\":1559461523932,\"error\":{\"message\":\"connect ETIMEDOUT 185.53.59.4:80\"},\"errorType\":\"unknown\",\"app\":null,\"processes\":null,\"$$hashKey\":\"object:246\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}
